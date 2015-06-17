@@ -1,5 +1,10 @@
 ## 0.1.3 (unreleased)
 
+FEATURES:
+
+  * **New physical backend: `etcd`**: store physical data in Zookeeper.
+      HA is supported.
+
 IMPROVEMENTS:
 
   * core: `/sys/auth` allows for PUT requests as well
